@@ -1,0 +1,205 @@
+.meibq {
+
+}
+
+.ylpxa {
+  width: 200px;
+  font-weight: 300; 
+  text-align: center;
+  font-size: 11px;
+  padding-top: 15px;
+}
+
+.asccl {
+  height: 577px;
+}
+
+.aylkb {
+  margin-top: 0px;
+}
+
+
+.glhlj {
+  width: 1100px;
+  height: 300px;
+  margin-top: 80px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(135deg, #73A1D4, #1C2860);
+}
+
+.dkisz {
+  margin-top: 80px;
+}
+
+.soxlf {
+  height: 820px;
+}
+
+.jzyfj {
+  width: 75%;
+  display: flex;
+  height: 292px
+}
+
+.fchjc {
+  color: white;
+  width: 200px;
+  height: 50px;
+}
+
+
+.nihgp {
+  width: 60%;
+  height: 292px;
+}
+
+.ikcpu {
+  width: 40%;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mkzwn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: white;
+  font-size: 25px;
+  padding-top: 69px;
+}
+
+.jzczv {
+  color: white;
+  padding-top: 12px;
+}
+
+.dmfzs {
+  margin: 0px;
+}
+
+.trpbs {
+  width: 150px;
+  color: white;
+  font-weight: 800;
+  height: 40px;
+}
+
+@media (max-width: 1441px) {
+  .glhlj {
+    margin-left: 156px
+  }
+}
+/* <-------- 1024 --------> */
+@media (max-width: 1024px) {
+  .glhlj {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .trpbs {
+    margin-top: 0px;
+  }
+  .izegr {
+    margin-top: 10px;
+  }
+}
+
+/* <-------- 768 --------> */
+@media (max-width: 768px) {
+  .hnrmp {
+    font-size: 17px;
+  }
+  .kosrw {text-align: center;
+    font-size: 16px;
+    line-height: 13px;
+  }
+  .ylpxa {
+    font-size: 10px;
+  }
+  .ntlbl {
+    padding-top: 9px;
+  }
+  .svcvi {
+    padding-top: 3px !important;
+  }
+}
+
+/* <-------- 425 --------> */
+@media (max-width: 426px) {
+  .hnrmp {
+    font-size: 8px;
+  }
+  .kosrw {
+    text-align: center;
+    font-size: 8px;
+    line-height: 8px;
+  }
+  .ylpxa {
+    font-size: 5px;
+    margin-right: 10px;
+  }
+  .ntlbl {
+    display: none;
+  }
+  .izegr {
+    margin-left: 145px;
+  }
+  .fchjc {
+    color: white;
+    width: 120px;
+    height: 40px;
+  }
+  .mkzwn {
+    font-size: 18px;
+  }
+  .jzczv {
+    font-size: 13px;
+  }
+}
+
+/* <-------- 375 --------> */
+@media (max-width: 376px) {
+  .izegr {
+    margin-left: 120px;
+  }
+  .ikcpu {
+    padding-left: 30px;
+    padding-bottom: 70px;
+  }
+  .glhlj {
+    height: 225px;
+  }
+  .mkzwn {
+    padding-top: 20px;
+  }
+}
+
+/* <-------- 320 --------> */
+@media (max-width: 321px) {
+  .hnrmp {
+    font-size: 7px;
+  }
+  .kosrw {
+    font-size: 7px;
+  }
+  .ylpxa {
+    font-size: 5.2px;
+    position: relative;
+    margin-right: 0px;
+    right: 4px;
+  }
+  .svcvi  {
+    font-size: 9px;
+  }
+  .gxzrw {
+    padding-top: 5px;
+  }
+  .ntgov {
+    padding-top: 15px !important;
+  }
+  .jzczv {
+    font-size: 11px;
+  }
+}

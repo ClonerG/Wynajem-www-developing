@@ -1,0 +1,115 @@
+.footer-container {
+ 
+  margin: auto;
+  margin-right: 0;
+}
+
+.row {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  height: 400px;
+  background-color: #1C2860;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-ul {
+  display: block;
+  list-style: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.footer-li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.footer-a {
+  cursor: pointer;
+}
+
+.footer-i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+}
+
+.footer_main-text {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.footer-col .footer_main-text {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col .footer_main-text::before {
+  max-width: 60px;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  /* background-color: #3E76CC; */
+  height: 2px;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.footer-col .footer-ul .footer-li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col .footer-ul .footer-li .footer-a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col .footer-ul .footer-li .footer-a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links .footer-a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links .footer-a:hover {
+  color: #24262b;
+  background-color: #73A1D4;
+}
+

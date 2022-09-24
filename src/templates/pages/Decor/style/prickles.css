@@ -1,0 +1,776 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+.prickles{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 236, 236);
+}
+
+.fixed-title-prickles{
+    width: 96%;
+    margin-left: 2%;
+    height: 105px;
+    position: fixed;
+    z-index: 3;
+    margin-top: 78px;
+}
+
+/* F-T-1 */
+
+.fixed-t-1-prickles{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(160,88,65);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.search-prickles{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+}
+
+.log-bag-prickles{
+    width: 170px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-search-prickles{
+    position: relative;
+    left: 10%;
+    top: 3px;
+    font-size: 25px;
+    color: rgb(160,88,65);
+}
+
+.search-text-prickles{
+    background: none;
+    width: 200px;
+    padding-left: 35px;
+    height: 40px;
+    border:none;
+    outline: none;
+    font-size: 17px;
+    color: rgb(160,88,65);
+}
+
+.search-text-prickles:hover{
+    border: 1.5px solid rgb(160,88,65);
+}
+
+.search-text-prickles:focus{
+    border: 1.5px solid rgb(160,88,65);
+}
+
+.search-text-prickles::placeholder{
+    color: rgb(160,88,65);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.account-prickles{
+    color: rgb(160,88,65);
+    font-size: 25px;
+    margin-right: 8px;
+    margin-top: 7px;
+}
+
+.mall-icon-prickles{
+    color: rgb(160,88,65);
+    font-size: 25px;
+    margin-top: 7px;
+    margin-left: 22px;
+}
+
+.style-title-text-prickles{
+    transition: all .3s;
+    font-size: 18px;
+    color: rgb(160,88,65);
+}
+
+.style-title-text-prickles:hover{
+    color: rgb(160, 116, 100);
+    transition: all .3s;
+}
+
+/* F-T-2 */
+
+.fixed-t-2-prickles{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(160,88,65);
+}
+
+.title-safc-prickles{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.info-title-prickles{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 22px; 
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.s-a-f-c-prickles{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.style-title-prickls{
+    color: rgb(160,88,65);   
+    transition: all .3s;
+    font-size: 22px; 
+    font-weight: 600;
+}
+
+.style-title-prickls:hover{
+    color: rgb(48, 26, 19);   
+    transition: all .3s;
+}
+
+.style-safc-prickls{
+    color: rgb(160,88,65);   
+    transition: all .3s;
+}
+
+.style-safc-prickls:hover{
+    color: rgb(48, 26, 19);   
+    transition: all .3s;
+}
+
+.style-for-shop-prickls{
+    display: block;
+    color: rgb(160,88,65);   
+    transition: all .3s;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.style-for-shop-prickls:hover{
+    color: rgb(48, 26, 19);   
+    transition: all .3s;
+}
+
+.bloc-for-shop{
+    height: 90px;
+    width: 80px;
+    background-color: rgb(236, 236, 236);
+    position: absolute;
+    left: 168px;
+    top: 115px;
+    display: none;
+}
+
+.style-shop-prickls{
+    color: rgb(160,88,65);   
+    transition: all .3s;
+}
+
+.style-shop-prickls:hover{
+    color: rgb(48, 26, 19);   
+    transition: all .3s;
+}
+
+.v-bloc-for-shop-prickles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 60px;
+}
+
+.v-bloc-for-shop-prickles:hover .bloc-for-shop{
+    display: block;
+}
+
+.first-block{
+    background: url(../img/prickles/fixed-photo-1.webp) no-repeat center;
+    background-size: cover;
+    width: 95.8%;
+    margin-left: 2.1%;
+    height: 1000px;
+    position: fixed;
+    z-index: 0;
+    margin-top: 96px;
+}
+
+.title-for-f-b-prickles{
+    background-color: rgba(16, 36, 16, 0.3);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95.8%;
+    margin-left: 2.1%;
+    height: 1000px;
+    position: relative;
+    top: 60px;
+}
+
+.bloc-in-title-for-f-1{
+    width: 300px;
+    height: 70px;
+    margin-left: 30%;
+}
+
+.cont-1-fot-bloc-title{
+    letter-spacing: 7px;
+    border-bottom: 2px solid;
+    height: 27px;
+}
+
+.cont-2-fot-bloc-title{
+    background: url(../img/prickles/555.png) no-repeat center;
+    background-size: cover;
+    width: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(122deg) brightness(250%) contrast(100%);
+}
+
+.bloc-in-title-for-f-2{
+    width: 750px;
+    height: 140px;
+    font-size: 112px;
+    letter-spacing: 7px;
+}
+
+.bloc-in-title-for-f-3{
+    width: 300px;
+    height: 30px;
+    margin-left: 30%;
+    font-size: 17px;
+    letter-spacing: 7px;
+}
+
+.bloc-in-title-for-f-4{
+    width: 180px;
+    height: 40px;
+    margin-left: 38%;
+    background-color: rgb(160, 88, 65);
+    color: #fff;
+    transition: all .5s;
+}
+
+.bloc-in-title-for-f-4:hover{
+    transition: all .5s;
+    background-color: rgb(218, 177, 163);
+    color:  rgb(36, 19, 13);
+}
+
+.position-bloc-for-t-f{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 17px;
+}
+
+.second-bloc-prickles{
+    height: 665px;
+    width: 96%;
+    margin-left: 2%;
+    z-index: 2;
+    position: relative;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wh-bloc-cps-prickles{
+    width: 565px;
+    height: 565px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.cacti-s-b-prickles{
+    background: url(../img/prickles/cacti.webp) no-repeat center;
+    background-size: cover;
+}
+
+.plants-s-b-prickles{
+    background: url(../img/prickles/plants.webp) no-repeat center;
+    background-size: cover;
+}
+
+.succulents-s-b-prickles{
+    background: url(../img/prickles/succulents.webp) no-repeat center;
+    background-size: cover;
+}
+
+.hw-bloc-cps-prickles{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-bloc-cps-prickles{
+    font-size: 22px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: rgb(160, 88, 65);
+    transition: all .3s;
+}
+
+.name-bloc-cps-prickles:after{
+    content: "";
+    display: block;
+    position: relative;
+    top: 13px;
+    left: 0;
+    width: 25px;
+    margin: 0 auto;
+    height: 5px;
+    background-color: rgb(160, 88, 65);
+} 
+
+.name-bloc-cps-prickles:hover{
+    transition: all .3s;
+    color:  rgb(36, 19, 13);
+}
+
+.butt-cps-prickles{
+    width: 180px;
+    height: 40px;
+    margin-left: 34%;
+    background-color: rgb(160, 88, 65);
+    color: #fff;
+    transition: all .5s;
+}
+
+.butt-cps-prickles:hover{
+    transition: all .5s;
+    background-color: rgb(218, 177, 163);
+    color:  rgb(36, 19, 13);
+}
+
+.third-bloc-prickles{
+    width: 96%;
+    height: 1155px;
+    margin-left: 2%;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.half-t-bloc-1-prickles{
+    width: 100%;
+    height: 455px;
+    display: flex;
+}
+
+.half-t-bloc-2-prickles{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.half-t-bloc-info-1-prickles{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    color: rgb(160, 88, 65);
+}
+
+.title-half-bloc-info{
+    width: 100%;
+    height: 130px;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.title-half-bloc-info:after{
+    content: "";
+    display: block;
+    position: relative;
+    top: 13px;
+    left: 0;
+    width: 25px;
+    margin: 0 auto;
+    height: 5px;
+    background-color: rgb(160, 88, 65);
+} 
+
+.positiont-title-half-prickles{
+    margin-left: 43%;
+    padding-top: 8%;
+}
+
+.info-half-bloc-1-info{
+    height: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+    text-align: center;
+    line-height: 28px;
+}
+
+.half-t-bloc-photo-1-prickles{
+    width: 25%;
+    height: 100%;
+    background: url(../img/prickles/half-b-photo-1.webp) no-repeat center;
+    background-size: cover;
+}
+
+.half-t-bloc-photo-2-prickles{
+    width: 25%;
+    height: 100%;
+    background: url(../img/prickles/half-b-photo-2.webp) no-repeat center;
+    background-size: cover;
+}
+
+.half-t-bloc-photo-3-prickles{
+    width: 50%;
+    height: 100%;
+    background: url(../img/prickles/half-b-photo-3.webp) no-repeat center;
+    background-size: cover;
+}
+
+.half-t-bloc-2-prickles{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.info-half-bloc-2-info{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(18, 49, 50);
+}
+
+.style-info-bloc-2-prickles{
+    margin-top: 12%;
+    margin-left: 25%;
+    font-size: 98px;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    color: #fff;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.butt-half-bloc-prickles{
+    width: 180px;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 8%;
+    background-color: #fff;
+    color: black;
+    transition: all .5s;
+}
+
+.butt-half-bloc-prickles:hover{
+    transition: all .5s;
+    background-color: rgb(64, 86, 87);
+    color:  #fff;
+}
+
+.fixed-bloc-2-prickles{
+    width: 96%;
+    height: 845px;
+    margin-left: 2%;
+    position: relative;
+    background: url(../img/prickles/fixed-photo-2.webp) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regist-bloc-prickles{
+    width: 770px;
+    height: 655px;
+    background-color: rgb(255, 255, 255, .8);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.title-regist-bloc-prickles{
+    width: 96%;
+    height: 110px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(160, 88, 65);
+}
+
+.title-regist-bloc-prickles:after{
+    content: "";
+    display: block;
+    position: relative;
+    top: 15px;
+    left: 0;
+    width: 25px;
+    margin: 0 auto;
+    height: 5px;
+    background-color: rgb(160, 88, 65);
+} 
+
+.first-last-name-prickles{
+    height: 70px;
+    width: 96%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.fl-name-bloc-prickles{
+    width: 48%;
+    height: 100%;
+}
+
+.input-text-regist-prickles{
+    height: 35px;
+    width: 100%;
+    outline: none;
+    margin-top: 12px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.input-text-regist-prickles:hover{
+    border: 2.5px solid rgb(0, 0, 0);
+}
+
+.input-text-regist-prickles:focus{
+    border: 2.5px solid rgb(0, 0, 0);
+}
+
+.e-mail-phone-bloc-prickles{
+    height: 70px;
+    width: 96%;
+    margin-left: 2%;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+.input-email-phone-regist-prickles{
+    height: 35px;
+    width: 100%;
+    outline: none;
+    margin-top: 12px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.input-email-phone-regist-prickles:hover{
+    border: 2.5px solid rgb(0, 0, 0);
+}
+
+.input-email-phone-regist-prickles:focus{
+    border: 2.5px solid rgb(0, 0, 0);
+}
+
+.message-bloc-prickles{
+    height: 185px;
+    width: 96%;
+    margin-left: 2%;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+.input-message-regist-prickles{
+    height: 155px;
+    width: 100%;
+    outline: none;
+    margin-top: 12px;
+    font-size: 15px;
+    padding-left: 10px;
+    resize: none;
+}
+
+.input-message-regist-prickles:hover{
+    border: 2.5px solid rgb(0, 0, 0);
+}
+
+.input-message-regist-prickles:focus{
+    border: 2.5px solid rgb(0, 0, 0);
+}
+
+.bloc-butt-for-r-prickles{
+    height: 40px;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 17px;
+    background-color: rgb(160, 88, 65);
+    color: #fff;
+    transition: all .5s;
+}
+
+.bloc-butt-for-r-prickles:hover{
+    transition: all .5s;
+    background-color: rgb(218, 177, 163);
+    color:  rgb(36, 19, 13);
+}
+
+.additional-information-prickles{
+    width: 96%;
+    margin-left: 2%;
+    height: 520px;
+    background-color: rgb(18, 49, 50);
+    color:  #fff;
+    position: relative;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.addit-bloc-1-prickles{
+    width: 50%;
+    height: 180px;
+    position: relative;
+    top: 19%;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont-bloc-addit-prickles{
+    width: 25%;
+    height: 100%;
+}
+
+.title-addit-contant-prickles{
+    font-size: 22px;
+    letter-spacing: 7px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-addit-contant-prickles{
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+}
+
+.position-info-addit-href-prickles{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.addit-bloc-2-prickles{
+    width: 22%;
+    margin-left: 39%;
+    margin-top: 6%;
+    height: 160px;
+}
+
+.title-addint-bloc-2-prickles{
+    width: 100%;
+    height: 40px;
+    font-size: 22px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.but-email-container-addit-prickles{
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-networks-icons-prickles{
+    margin-left: 35%;
+    width: 30%;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.addit-icon-prickles{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.title-bloc-addit-for-bloc-2-prickles{
+    font-size: 17px;
+}
+
+.email-bloc-addit-for-bloc-2-prickles{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.email-bloc-addit-for-bloc-2-prickles:hover{
+    border: 2.5px solid rgb(255, 255, 255);
+}
+
+.email-bloc-addit-for-bloc-2-prickles:focus{
+    border: 2.5px solid rgb(255, 255, 255);
+}
+
+.position-buut-addint-bloc-2-p{
+    width: 36%;
+    margin-left: 4%;
+    height: 100%;
+}
+
+.butt-addit-for-bloc-2-prickles{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    color: rgb(18, 49, 50);
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.butt-addit-for-bloc-2-prickles:hover{
+    transition: all .5s;
+    background-color: rgb(64, 86, 87);
+    color:  #fff;
+}
+
+.bloc-title-email-addit-for-bloc-2-prickles{
+    width: 60%;
+    height: 100%;
+}
+
+.by-prickles{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgb(236, 236, 236);
+    word-spacing: 3px;
+    position: relative;
+    color: rgb(160, 88, 65);
+}

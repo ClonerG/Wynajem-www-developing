@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+
+.nous{
+    width: 100%;
+    height: 100%;
+    background-color: #f9fafa;
+}
+
+#link{
+    text-decoration: none;
+}
+
+.link-text{
+    max-width: 100px;
+    height: 50px;
+}
+
+.fixed-b{
+    width: 100%;
+    height: 70px;
+    background-color: #f9fafa;
+    /* position: fixed; */
+    z-index: 3;
+    display: flex;
+}
+
+.fixed-b-1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.block-text-nous{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+.text-nous{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    transition: all 0.5s;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.text-nous:hover{
+   color: rgb(255, 98, 0);
+   transition: all 0.5s;
+}
+
+.search-text-nous{
+    background: none;
+    width: 170px;
+    padding-left: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.search-text-nous:hover{
+    border-bottom: 1.5px solid black;
+}
+
+.search-text-nous:focus{
+    border-bottom: 1.5px solid black;
+}
+
+.search-nous{
+    position: relative;
+    left: 30px;
+    top: 3px;
+    color: black;
+}
+
+.fixed-b-2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+.s-w-m-s-a-c{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.log-bag{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.style-link-n{
+    padding-left: 22px;
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.style-link-n:hover{
+    transition: all 0.5s;
+    color: rgb(255, 98, 0);;
+}
+
+.account-nous{
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.style-log-in-n{
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.mall-icon-nous{
+    color: black;
+    font-size: 30px;
+}
+
+.invis-tit-f-nous{
+    width: 100%;
+    height: 70px;
+}
+
+.title-nous-1{
+    width: 90%;
+    height: 300px;
+    background: rgb(255, 98, 0);
+    margin-left: 5%;
+}
+
+.title-b-n-1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.title-b-n-2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    word-spacing: 5px;
+}
+
+.title-b-n-3{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shop-wms-nous{
+    width: 225px;
+    height: 45px;
+    border: 3px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+
+.shop-wms-nous:hover{
+    transition: all 0.5s;
+    background-color: #fff;
+    color: rgb(255, 98, 0);
+}
+
+/* 3 PHOTO */
+
+.photo-3-nous{
+    width: 90%;
+    height: 520px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.photo-n-1{
+    width: 29%;
+    height: 100%;
+    background: url(../img/nous/1.webp) no-repeat center;
+    background-size: cover;
+}
+
+.photo-n-2{
+    width: 29%;
+    height: 100%;
+    background: url(../img/nous/2.webp)center;
+    background-size: cover;
+}
+
+.photo-n-3{
+    width: 39%;
+    height: 100%;
+    background: url(../img/nous/3.webp) no-repeat center;
+    background-size: cover;
+}
+
+.new-arri-nous{
+    width: 100%;
+    height: 320px;
+}
+
+.flex-text-arri{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-arri{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 110px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.flex-line-arri{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -128px;
+}
+
+.line-arri{
+    width: 650px;
+    height: 12px;
+    background-color: rgb(255, 98, 0);
+    z-index: 0;
+}
+
+.shop-column{
+    width: 90%;
+    height:650px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.shop-link-s-nous{
+    width: 100%;
+    height: 100%;
+}
+
+.shop-column-1{
+    width: 90%;
+    height:650px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 5%;
+}
+
+.pos-s-b-nous{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.hover-shop-bloc{
+    border-top: 3px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 10.5%;
+    transition: all 0.3s;
+    /* opacity: 0; */
+    position: relative;
+    top: 96%;
+}
+
+.hover-shop-bloc:hover{
+    opacity: 1;
+    transition: all 0.3s;
+    top: 90%;
+}  
+
+.shop-pos{
+    height: 96%;
+    width: 22.5%;
+    opacity: 1;
+    transition: all 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.bests-seller-nous{
+    width: 90px;
+    height: 25px;
+    color: #fff;
+    background-color: rgb(255, 98, 0);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    position: absolute;
+}
+
+.shop-1-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-1.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-1-nous:hover{
+    background: url(../img/nous/shop-1-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-2-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-2.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-2-nous:hover{
+    background: url(../img/nous/shop-2-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-3-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-3.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-3-nous:hover{
+    background: url(../img/nous/shop-3-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-4-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-4.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-4-nous:hover{
+    background: url(../img/nous/shop-4-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-5-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-5.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-5-nous:hover{
+    background: url(../img/nous/shop-5-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-6-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-6.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-6-nous:hover{
+    background: url(../img/nous/shop-6-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-7-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-7.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-7-nous:hover{
+    background: url(../img/nous/shop-7-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-8-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-8.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-8-nous:hover{
+    background: url(../img/nous/shop-8-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-9-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-9.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-9-nous:hover{
+    background: url(../img/nous/shop-9-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-10-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-10.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-10-nous:hover{
+    background: url(../img/nous/shop-10-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-11-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-11.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-11-nous:hover{
+    background: url(../img/nous/shop-11-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-12-nous{
+    height: 96%;
+    width: 22.5%;
+    background: url(../img/nous/shop-12.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-12-nous:hover{
+    background: url(../img/nous/shop-12-hover.webp) no-repeat center;
+    background-size: cover;
+}
+
+.shop-text-nous{
+    width: 22.5%;
+    height: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.shop-info-nous{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+}
+
+.shop-price-nous{
+    color: rgb(255, 98, 0);
+}
+
+.shop-all-nous{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-all-1{
+    width: 160px;
+    height: 45px;
+    background-color: #fff;
+    color: rgb(255, 98, 0);
+    margin-right: 2px;
+    border: 3.5px solid rgb(255, 98, 0);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.shop-all-1:hover{
+    background-color: rgb(255, 98, 0);
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.shop-all-2{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 98, 0);
+    margin-left: 2px;
+    color: #fff;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+
+.shop-all-2:hover{
+    background-color: rgb(255, 98, 0, 0.6);
+    transition: all 0.5s;
+}
+
+.flex-shop-nous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.additional-information{
+    width: 90%;
+    margin-left: 5%;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-f-addit{
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+
+.addit-c{
+    height: 100%;
+    width: 18%;
+}
+
+.addit-c-1{
+    height: 100%;
+    width: 29%;
+}
+
+.addit-c-2{
+    height: 100%;
+    width: 35%;
+}
+
+.bloc-addit{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.style-addit{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+    color: #f9fafa;
+}
+
+.text-join-nous{
+    width: 100%;
+    height: 25%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.discount-nous{
+    width: 100%;
+    height: 15%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #f9fafa;
+}
+
+.email-nous{
+    margin-top: 5%;
+    height: 25%;
+    width: 100%;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+    border: 4px solid rgb(255, 98, 0); 
+}
+
+.email-nous::placeholder{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.subscribe-nous{
+    margin-top: 3%;
+    height: 25%;
+    width: 100%;
+    background-color: rgb(255, 98, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.subscribe-nous:hover{
+    background-color: rgb(255, 98, 0, 0.7);
+    transition: all .5s;
+}
+
+.by-nous{
+    height: 75px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

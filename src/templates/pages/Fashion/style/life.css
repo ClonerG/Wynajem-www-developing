@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=PT+Sans+Narrow&display=swap');
+
+.life{
+    width: 100%;
+    height: 100%;
+}
+
+.f-title-l{
+    width: 50%;
+    height: 240px;
+    margin-left: 25%;
+}
+
+.search-log-l{
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+.life-etc{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50px;
+}
+
+.s-a-j-c{
+    width: 100%;
+    height: 30%;
+}
+
+.search-life{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search-text-life{
+    background: none;
+    width: 160px;
+    padding-left: 27px;
+    height: 40px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-width: 1px;
+    outline: none;
+    border-color: black;
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.search-text-life:hover{
+    border-bottom: 2.5px solid black;
+}
+
+.search-text-life:focus{
+    border-bottom: 2.5px solid black;
+}
+
+.icon-search-life{
+    position: relative;
+    left: 12%;
+    top: 3px;
+    color: black;
+    font-size: 25px;
+}
+
+.log-bag-life{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.log-in-life{
+    padding-right: 20px;
+}
+
+.account-life{
+    color: black;
+    font-size: 25px;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+
+.mall-icon-life{
+    color: black;
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.s-a-j-c{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.style-title-t-f{
+    font-family: 'PT Sans Narrow', sans-serif;
+    transition: all 0.5s;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+
+.style-title-t-f:hover{
+    color: rgb(110, 110, 110);
+    transition: all 0.5s;
+}
+
+.line-wom-life{
+    height: 70px;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-l{
+    width: 40%;
+    height: 1px;
+    background-color: black;
+}
+
+.text-line-l{
+    font-family: 'PT Sans Narrow', sans-serif;   
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+}
+
+/* SLIDER START */
+
+.img-slider{
+    width: 60%;
+    margin-left: 20%;
+    height: 610px;
+    overflow: hidden;
+}
+
+.sliders{
+    width: 500%;
+    height: 610px;
+    display: flex ;
+}
+
+.slider-1{
+    width: 905px;
+    height: 606px;
+    background: url(../img/life/slider-1.webp) no-repeat center;
+    background-size: cover;
+}
+
+.slider-2{
+    width: 905px;
+    height: 606px;
+    background: url(../img/life/slider-2.webp) no-repeat center;
+    background-size: cover;
+}
+
+.slider-3{
+    width: 905px;
+    height: 606px;
+    background: url(../img/life/slider-3.webp) no-repeat center;
+    background-size: cover;
+}
+
+.slider-4{
+    width: 905px;
+    height: 606px;
+    background: url(../img/life/slider-4.webp) no-repeat center;
+    background-size: cover;
+}
+
+.sliders input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 60%;
+    margin-top: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #fff;
+}
+
+#radio-1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio-2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio-3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio-4:checked ~ .first{
+    margin-left: -60%;
+}
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin-top: 570px;
+}
+
+.navigation-auto div{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio-1:checked ~ .navigation-auto .auto-btn-1{
+    background: #fff;
+}
+
+#radio-2:checked ~ .navigation-auto .auto-btn-2{
+    background: #fff;
+}
+
+#radio-3:checked ~ .navigation-auto .auto-btn-3{
+    background: #fff;
+}
+
+#radio-4:checked ~ .navigation-auto .auto-btn-4{
+    background: #fff;
+}
+
+/* SLIDER END */
+
+.fuer-it-life{
+    width: 50%;
+    height: 200px;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-l{
+    width: 40%;
+    height: 1px;
+    background-color: black;
+}
+
+.img-3-l{
+    height: 410px;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* CARD START */
+
+.card-img-1{
+    background: url(../img/life/card-img-1.webp) no-repeat center;
+    background-size: cover;  
+    height: 100%;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.card-img-l::after{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    content: "Quick View";
+    background-color: rgb(255, 255, 255, 0.75);
+    color: #151515;
+    font-size: 19px;
+    transform: translate(0px, 40%);
+    opacity: 0;
+    transition:all .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Sans Narrow', sans-serif;  
+}
+
+.card-img-l:hover::after{
+    opacity: 1;
+    transition:all .3s;
+    transform: translate(0, 0);
+}
+
+/* CARD END */
+
+.card-img-2{
+    background: url(../img/life/card-img-2.webp) no-repeat center;
+    background-size: cover;  
+    height: 100%;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.card-img-3{
+    background: url(../img/life/card-img-3.webp) no-repeat center;
+    background-size: cover;  
+    height: 100%;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.link-href-img-l{
+    cursor: pointer;
+    height: 100%;
+    width: 32%;
+}
+
+.card-img-1:hover{
+    background: url(../img/life/card-img-1-hover.webp) no-repeat center;
+    background-size: cover;  
+}
+
+.card-img-2:hover{
+    background: url(../img/life/card-img-2-hover.webp) no-repeat center;
+    background-size: cover;  
+}
+
+.card-img-3:hover{
+    background: url(../img/life/card-img-3-hover.webp) no-repeat center;
+    background-size: cover;  
+}
+
+.bests-seller-life{
+    width: 90px;
+    height: 25px;
+    color: #fff;
+    background-color: rgb(100, 123, 110);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    position: absolute;
+}
+
+.name-price-l{
+    width: 50%;
+    height: 45px;
+    margin-left: 25%;
+    display: flex;
+    margin-top: 15px;
+}
+
+.shop-text-life{
+    width: 33.3%;
+    height: 100%;
+    font-family: 'PT Sans Narrow', sans-serif;  
+    font-size: 20px;
+}
+
+.flex-it-l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-price-life{
+    color: rgb(110, 110, 110);
+    font-size: 15px;
+}
+
+.bloc-for-shop-l{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-all-l{
+    width: 135px;
+    height: 35px;
+    border: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Sans Narrow', sans-serif;  
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.link-shop-l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 55px;
+    color: black;
+}
+
+.shop-all-l:hover{
+    color: #fff;
+    background-color: rgb(100, 123, 110);
+    transition: all 0.5s;
+    border-color: rgb(100, 123, 110);
+}
+
+.additional-information-life{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(231, 238, 234);
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.title-addit-life{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(231, 238, 234);
+    justify-content: center;
+}
+
+.position-title-l{
+    display: flex;
+    align-items: end;
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+
+.name-t-l{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'PT Sans Narrow', sans-serif;  
+}
+
+.line-t-l{
+    width: 80%;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+
+.addit-flex{
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+
+.style-addit-life{
+    font-family: 'PT Sans Narrow', sans-serif;  
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(110, 110, 110);
+}
+
+.addit-c-1-l{
+    height: 100%;
+    width: 18%;
+}
+
+.addit-c-2-l{
+    height: 100%;
+    width: 22%;
+}
+
+.addit-c-3-l{
+    height: 100%;
+    width: 28%;
+}
+
+.addit-c-4-l{
+    height: 100%;
+    width: 32%;
+}
+
+.text-join-life{
+    width: 100%;
+    height: 25%;
+    font-family: 'PT Sans Narrow', sans-serif;  
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: rgb(110, 110, 110);
+}
+
+.email-life{
+    margin-top: 5%;
+    height: 25%;
+    width: 100%;
+    background: none;
+    outline: none;
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+    border: 1.5px solid rgb(110, 110, 110);
+}
+
+.email-life::placeholder{
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'PT Sans Narrow', sans-serif;  
+}
+
+.subscribe-life{
+    margin-top: 3%;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'PT Sans Narrow', sans-serif;  
+    cursor: pointer;
+    transition: all .5s;
+    border: 1.5px solid rgb(110, 110, 110);
+}
+
+.subscribe-life:hover{
+    background-color: rgb(100, 123, 110);
+    transition: all .5s;
+    color: #fff;
+    border-color: rgb(100, 123, 110);
+}

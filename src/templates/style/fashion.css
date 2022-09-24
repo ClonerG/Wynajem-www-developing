@@ -1,0 +1,14 @@
+.bg-noes {
+  background-image: url(../pages/Fashion/img/bg-noes.jpg);
+  background-size: cover;
+}
+
+.bg-cloes {
+  background-image: url(../pages/Fashion/img/bg-close.jpg);
+  background-size: cover;
+}
+
+.bg-life {
+  background-image: url(../pages/Fashion/img/bg-life.jpg);
+  background-size: cover;
+}
