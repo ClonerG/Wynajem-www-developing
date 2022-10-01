@@ -129,5 +129,92 @@
     font-size: 34px;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.3em;
+    margin-bottom: 50px;
+}
+
+.glasses-example{
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.example-1{
+    width:30%;
+    height: 100%;
+}
+
+.example-1-image{
+    transition: 0.5s;
+    width: 100%;
+    height: 70%;
+    background: url(../img/glasses/84770f_541de81a97db451fb0db612d30c64264.jpg) round center;
+}
+
+.example-1-text{
+    width: 100%;
+    height: 30%;
+}
+
+.example-1-text-1{
+    margin-top:12px;
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.hr-example-1{
+    margin:10px auto;
+    border: 2px solid rgb(207,75,50);
+    width: 15%
+}
+
+.example-1-image:hover{
+    transition: 0.5s;
+    transform: scale(1.1)
+}
+
+.example-2{
+    width:30%;
+    height: 100%;
+}
+
+.example-3{
+    width:30%;
+    height: 100%;
+}
+
+.example-2-image{
+    transition: 0.5s;
+    width: 100%;
+    height: 70%;
+    background: url(../img/glasses/84770f_771c24376c1a49508bf34ddd4e2d5f69.jpg) round center;
+}
+
+.example-3-image{
+    transition: 0.5s;
+    width: 100%;
+    height: 70%;
+    background: url(../img/glasses/84770f_02b98f96e0b14ff29666142045f9cd4a.jpg) round center;
+}
+
+.example-2-image:hover{
+    transition: 0.5s;
+    transform: scale(1.1)
+}
+
+.example-3-image:hover{
+    transition: 0.5s;
+    transform: scale(1.1)
+}
+
+.example-1:hover{
+    cursor:pointer;
+}
+.example-2:hover{
+    cursor:pointer;
+}
+.example-3:hover{
+    cursor:pointer;
 }
 ;

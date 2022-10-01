@@ -35,10 +35,28 @@ const Glasses = () => {
       <div class='glasses-example'>
         <div class='example-1'>
           <div class='example-1-image'></div>
-          <div class='example-1-text'></div>
+          <div class='example-1-text'>
+            <div class='example-1-text-1'>Yuzu Sunglasses</div>
+            <hr class='hr-example-1' />
+            <div class='example-1-text-1'>$260.00</div>
+          </div>
         </div>
-        <div class='example-2'></div>
-        <div class='example-3'></div>
+        <div class='example-2'>
+          <div class='example-2-image'></div>
+          <div class='example-1-text'>
+            <div class='example-1-text-1'>Luka Sunglasses</div>
+            <hr class='hr-example-1' />
+            <div class='example-1-text-1'>$220.00</div>
+          </div>
+        </div>
+        <div class='example-3'>
+          <div class='example-3-image'></div>
+          <div class='example-1-text'>
+            <div class='example-1-text-1'>Stromboli Sunglasses</div>
+            <hr class='hr-example-1' />
+            <div class='example-1-text-1'>$230.00</div>
+          </div>
+        </div>
       </div>
     </div>
   );
