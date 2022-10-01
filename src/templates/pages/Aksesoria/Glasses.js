@@ -22,6 +22,24 @@ const Glasses = () => {
           <a><ShoppingBagIcon class='navbar-icon'>0</ShoppingBagIcon></a>
         </div>
       </div>
+      <div class="first-image">
+        <div class='first-image-panel'>
+          <div class='first-panel-text-1'>New</div>
+          <div class='first-panel-text-2'>ARRIVALS</div>
+          <hr class='hr-first-panel' />
+          <div class='first-panel-text-3'>Shop Now</div>
+        </div>
+      </div>
+      <hr class='hr-first-1' />
+      <div class='text-as-seen'>AS SEEN ON CELEBRITIES</div>
+      <div class='glasses-example'>
+        <div class='example-1'>
+          <div class='example-1-image'></div>
+          <div class='example-1-text'></div>
+        </div>
+        <div class='example-2'></div>
+        <div class='example-3'></div>
+      </div>
     </div>
   );
 };
