@@ -2,6 +2,9 @@ import React from "react";
 import './style/glasses.css';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Glasses = () => {
   return (
@@ -56,6 +59,37 @@ const Glasses = () => {
             <hr class='hr-example-1' />
             <div class='example-1-text-1'>$230.00</div>
           </div>
+        </div>
+      </div>
+      <div class='dealer'>
+        <div class='dealer-text'>
+          Authorized Dealer of The Best Luxury Designer and Sport Brands
+        </div>
+      </div>
+      <div class='season-sale'>
+        <div class='season-sale-img'></div>
+        <div class='season-sale-text'>
+          <div class='sst-1'>End of Season Sale</div>
+          <div class='sst-2'>50% Off</div>
+          <hr class='hr-second-panel' />
+          <div class='sst-3'>ENTIRE STOCK</div>
+        </div>
+      </div>
+      <div class='bagge'>
+        <div class='bagge-img'></div>
+        <div class='bagge-text'>
+          <div class='bt-img'></div>
+          <hr class='hr-third-panel' />
+          <div class='bt-1'>since 1867</div>
+          <div class='bt-2'></div>
+        </div>
+      </div>
+      <div class='contacts'>
+        <div>© 2023 by SUNGLASSES SHOP. Proudly created with Adima.com</div>
+        <div class='contacts-icons'>
+          <a><FacebookIcon class='contacts-icon'></FacebookIcon></a>
+          <a><TwitterIcon class='contacts-icon'></TwitterIcon></a>
+          <a><InstagramIcon class='contacts-icon'></InstagramIcon></a>
         </div>
       </div>
     </div>
